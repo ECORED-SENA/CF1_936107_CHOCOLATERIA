@@ -1,17 +1,34 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Planificación para la recepción del cacao',
+    descripcionCurso:
+      'Este componente de formación contiene la información de equipos y procedimientos a realizar en el manejo del cacao posterior a la etapa de cosecha, así como la normatividad aplicable en materia ambiental, sanitaria y de seguridad y salud en el trabajo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.png'),
       },
     ],
   },
@@ -32,30 +49,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Marco normativo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Equipos, instrumentos, utensilios en la recepción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos, características y manejo',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +110,125 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Marco normativo',
+      referencia:
+        'ColombiaMide. (2021). Nuevas normas o estándares disponibles para las cadenas de cacao y aguacate Hass, aprobados por ICONTEC y gestionados por ColombiaMide. ColombiaMide.',
+      tipo: 'Página web',
+      link:
+        ' https://colombiamide.inm.gov.co/nuevas-normas-o-estandares-disponibles-para-las-cadenas-de-cacao-y-aguacate-hass-aprobados-por-icontec-y-gestionados-por-colombiamide/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Marco normativo',
+      referencia:
+        'Federación Nacional de Cacaoteros. (2019). Marco Jurídico. Fedecacao.',
+      tipo: 'Página web',
+      link: 'https://www.fedecacao.com.co/marcojuridico',
+    },
+    {
+      tema: 'Equipos, instrumentos, utensilios en la recepción',
+      referencia:
+        'Revista “Tierra Productiva”. (2021). ¿Cómo se realiza un control de calidad en el cacao antes de la compra? [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uJXPI7vgjh4',
+    },
+    {
+      tema: 'Tipos, características y manejo',
+      referencia:
+        'Longer Nuts Machinery. (2022). Maquinaria para procesar cacao, equipo para procesar cacao [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9AXfvwV6QGk',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Cacao',
+      significado:
+        'Fruto extraído de las mazorcas maduras de los árboles de la especie Theobroma cacao L. de la familia de las esterculiáceas, fermentado o no y secado.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Cosecha',
+      significado:
+        'Es la recolección de frutos, semillas o partes del programa de origen de interés comercial. La cosecha marca el final del crecimiento, el fin del ciclo productivo del cultivo y el inicio de la preparación o acondicionamiento para el mercado.',
+    },
+    {
+      termino: 'Cultivo de cacao',
+      significado:
+        'Sistema de producción  conformado fundamentalmente por árboles de la especie cacao.',
+    },
+    {
+      termino: 'Fedecacao',
+      significado: 'Federación Nacional de Cacaoteros.',
+    },
+    {
+      termino: 'NTC',
+      significado: 'Norma Técnica Colombiana.',
+    },
+    {
+      termino: 'Pasilla',
+      significado:
+        'Se refiere a los granos de cacao que se encuentran aplastados, son delgados y difíciles de separar cuando se cortan, generalmente a causa de una mala fermentación.',
+    },
+    {
+      termino: 'Sitio de acopio en campo',
+      significado:
+        'Lugar en la finca donde se reúne temporalmente el producto antes de ser llevado al sitio de la poscosecha.',
+    },
+    {
+      termino: 'Unidad de producción agrícola',
+      significado:
+        'Área compuesta por campos, parcelas, terrenos, invernaderos, edificaciones, etc., donde se llevan a cabo las actividades de producción.',
+    },
+    {
+      termino: 'USAID',
+      significado:
+        'Agencia de los Estados Unidos para el Desarrollo Internacional.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Concepto.de. (s.f.).  Cacao. Concepto.de.',
+      link: 'https://concepto.de/cacao/',
+    },
+    {
+      referencia:
+        'Cubillos, G., Merizalde, G. & Correa, E. (2008). Manual de beneficio del cacao para técnicos, profesionales del sector agropecuario y productores. Secretaría de Agricultura de Antioquia, Compañía Nacional de Chocolates S.A.S., Corporación para investigaciones biológicas (CIB), Grupo GIEM Universidad de Antioquia.',
+    },
+    {
+      referencia:
+        'Federación Nacional de Cacaoteros. (2015). Mejoramiento tecnológico del cultivo de cacao. Fedecacao.',
+    },
+    {
+      referencia:
+        'Federación Nacional de Cacaoteros. (2019). Marco Jurídico. Fedecacao.',
+      link:
+        'https://www.fedecacao.com.co/marcojuridicohttps://www.fedecacao.com.co/marcojuridico',
+    },
+    {
+      referencia:
+        'ICONTEC. (2010). Norma Técnica Colombiana NTC 5811. ICONTEC.',
+      link: 'https://docplayer.es/54756325-Norma-tecnica-colombiana-5811.html',
+    },
+    {
+      referencia:
+        'INDCRESA Productos del cacao. (s.f.). Proceso del cacao. INDCRESA',
+      link: 'https://indcresa.com/proceso-del-cacao/',
+    },
+    {
+      referencia:
+        'Páez, W. (2017). Propuesta de mejora del proceso de transformación del cacao en Apomd para la disminución de su desperdicio.  Universidad de La Salle.',
+      link:
+        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1025&context=ing_industrial',
+    },
+    {
+      referencia:
+        'PROAmazonía. (2020). Manual de procesos de centro de acopio. PROAmazonía.',
+      link:
+        'https://www.proamazonia.org/wp-content/uploads/2021/05/Manual_cacao_2021.pdf',
+    },
+    {
+      referencia:
+        'USAID. (s.f.). Análisis de la cadena productiva del cacao en Colombia. USAID.',
+      link: 'https://pdf.usaid.gov/pdf_docs/PA00W6GT.pdf',
     },
   ],
   creditos: {
@@ -140,9 +242,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Karly Julieth Cediel Martínez',
+        cargo: 'Experta temática',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Caterine Bedoya Mejía',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba',
+        cargo: 'Revisora metodológico y pedagógico',
+        centro:
+          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -153,7 +277,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -165,29 +289,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        cargo: 'Validación contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

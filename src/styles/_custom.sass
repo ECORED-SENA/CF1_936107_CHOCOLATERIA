@@ -1,19 +1,158 @@
 .banner-principal-decorativo
   &-1
+    animation: float2 5.5s ease-in-out infinite alternate
+    position: absolute
+    top: 72%
+    left: 9%
+  &-2
+    animation: float1 3.0s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    left: 0%
+  &-3
+    animation: float2 6.0s ease-in-out infinite alternate
+    position: absolute
+    top: 27%
+    left: 3%
+  &-4
+    animation: float2 6.5s ease-in-out infinite alternate
+    position: absolute
+    top: 15%
+    right: 20%
+  &-5
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    right: 8%
+  &-6
+    animation: float1 6.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 72%
+    right: 49%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(25px)
   100%
     transform: translateY(0px)
+  
+@keyframes float2
+  0%
+    transform: translateX(25px)
+  100%
+    transform: translateX(0px)
+  
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.slyder-a__bullets__item--active
+  background-color: #FD7F23 !important
+
+.slyder-a__bullets__item
+  background-color: #85A3BC
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FD7F23
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03.acordion__activo
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG03
+  background-color: #E1DDDB
+
+.BGIMG04
+  background-image: url("../assets/curso/fondos/img04.png")
+
+.BGIMG05
+  background-image: url("../assets/curso/fondos/img05.png")
+
+.BGIMG06
+  background-image: url("../assets/curso/fondos/img06.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03.acordion__activo, .BGIMG04, .BGIMG05, .BGIMG06
+  background-size: 100% 100% 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01, .BGM02, .BGIMG02, .BGIMG05, .BGIMG06
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta.color-acento-botones
+  background-color: transparent
+
+.slyder-f__btn i
+  color: #FD7F23
+
+.acordion__accion__btn--b, .img-infografica-b__modal__btn-cerrar i, .slyder__btn
+  background-color: #FD7F23
+
+.BG01, .BGRT01
+  background-color: #E1DDDB
+
+.BGRT01
+  border-top: 3px solid #7D5F54
+
+.BGM02
+  background-color: #FFF6DF
+
+.BG03, .BGR03, .BGR04
+  background-color: #fff
+
+.BGR03
+  border-top: 3px solid #7D5F54
+
+.BGR04
+  border-bottom: 3px solid #FCC02D
+
+.BG05
+  background: linear-gradient(to bottom, #E1DDDB, #FEFEFE)
+
+.BGR06, .color-acento-contenido .bloque-texto-g__texto, .cajon.color-secundario
+  background-color: #FFF6DF
+
+.BGR06
+  border-top: 3px solid #FCC02D
+
+.img-infografica-b__modal
+  background-color: #F9EDD7
+
+.img-infografica-b__modal__contenido div > *, .img-infografica-b__modal__btn-cerrar i
+  color: $black !important
+
+.img-infografica-b__modal__btn-cerrar i
+  padding: 3px
+  
+.BGR03, .BGIMG03, .BGR04
+  border-radius: 15px
+
+.BGR03, .BGR04
+  height: 182px
+  @media (max-width: $bp-max-xl)
+    height: 206px
+  @media (max-width: $bp-max-lg)
+    height: 230px
+  @media (max-width: $bp-max-md)
+    height: 158px
+  @media (max-width: $bp-max-sm)
+    height: 200px 
+
+.img01
+  position: absolute
