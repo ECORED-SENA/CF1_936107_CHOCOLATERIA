@@ -112,29 +112,29 @@ export default {
     {
       tema: 'Marco normativo',
       referencia:
-        'ColombiaMide. (2021). Nuevas normas o estándares disponibles para las cadenas de cacao y aguacate Hass, aprobados por ICONTEC y gestionados por ColombiaMide. ColombiaMide.',
-      tipo: 'Página web',
+        'ColombiaMide. (2021). <em>Nuevas normas o estándares disponibles para las cadenas de cacao y aguacate Hass, aprobados por ICONTEC y gestionados por ColombiaMide. ColombiaMide</em>.',
+      tipo: 'Página <em>web</em>',
       link:
         ' https://colombiamide.inm.gov.co/nuevas-normas-o-estandares-disponibles-para-las-cadenas-de-cacao-y-aguacate-hass-aprobados-por-icontec-y-gestionados-por-colombiamide/',
     },
     {
       tema: 'Marco normativo',
       referencia:
-        'Federación Nacional de Cacaoteros. (2019). Marco Jurídico. Fedecacao.',
-      tipo: 'Página web',
+        'Federación Nacional de Cacaoteros. (2019). <em>Marco Jurídico</em>. Fedecacao.',
+      tipo: 'Página <em>web</em>',
       link: 'https://www.fedecacao.com.co/marcojuridico',
     },
     {
       tema: 'Equipos, instrumentos, utensilios en la recepción',
       referencia:
-        'Revista “Tierra Productiva”. (2021). ¿Cómo se realiza un control de calidad en el cacao antes de la compra? [video]. YouTube.',
+        'Revista “Tierra Productiva”. (2021). ¿<em>Cómo se realiza un control de calidad en el cacao antes de la compra</em>? [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uJXPI7vgjh4',
     },
     {
       tema: 'Tipos, características y manejo',
       referencia:
-        'Longer Nuts Machinery. (2022). Maquinaria para procesar cacao, equipo para procesar cacao [video]. YouTube.',
+        'Longer Nuts Machinery. (2022). <em>Maquinaria para procesar cacao, equipo para procesar cacao</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9AXfvwV6QGk',
     },
@@ -191,43 +191,42 @@ export default {
     },
     {
       referencia:
-        'Cubillos, G., Merizalde, G. & Correa, E. (2008). Manual de beneficio del cacao para técnicos, profesionales del sector agropecuario y productores. Secretaría de Agricultura de Antioquia, Compañía Nacional de Chocolates S.A.S., Corporación para investigaciones biológicas (CIB), Grupo GIEM Universidad de Antioquia.',
+        'Cubillos, G., Merizalde, G. & Correa, E. (2008). <em>Manual de beneficio del cacao para técnicos, profesionales del sector agropecuario y productores. Secretaría de Agricultura de Antioquia, Compañía Nacional de Chocolates S.A.S</em>., Corporación para investigaciones biológicas (CIB), Grupo GIEM Universidad de Antioquia.',
     },
     {
       referencia:
-        'Federación Nacional de Cacaoteros. (2015). Mejoramiento tecnológico del cultivo de cacao. Fedecacao.',
+        'Federación Nacional de Cacaoteros. (2015). <em>Mejoramiento tecnológico del cultivo de cacao</em>. Fedecacao.',
     },
     {
       referencia:
-        'Federación Nacional de Cacaoteros. (2019). Marco Jurídico. Fedecacao.',
-      link:
-        'https://www.fedecacao.com.co/marcojuridicohttps://www.fedecacao.com.co/marcojuridico',
+        'Federación Nacional de Cacaoteros. (2019). <em>Marco Jurídico</em>. Fedecacao.',
+      link: 'https://www.fedecacao.com.co/marcojuridico',
     },
     {
       referencia:
-        'ICONTEC. (2010). Norma Técnica Colombiana NTC 5811. ICONTEC.',
+        'ICONTEC. (2010). <em>Norma Técnica Colombiana NTC 5811</em>. ICONTEC.',
       link: 'https://docplayer.es/54756325-Norma-tecnica-colombiana-5811.html',
     },
     {
       referencia:
-        'INDCRESA Productos del cacao. (s.f.). Proceso del cacao. INDCRESA',
+        'INDCRESA Productos del cacao. (s.f.). <em>Proceso del cacao</em>. INDCRESA',
       link: 'https://indcresa.com/proceso-del-cacao/',
     },
     {
       referencia:
-        'Páez, W. (2017). Propuesta de mejora del proceso de transformación del cacao en Apomd para la disminución de su desperdicio.  Universidad de La Salle.',
+        'Páez, W. (2017). <em>Propuesta de mejora del proceso de transformación del cacao en Apomd para la disminución de su desperdicio</em>.  Universidad de La Salle.',
       link:
         'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1025&context=ing_industrial',
     },
     {
       referencia:
-        'PROAmazonía. (2020). Manual de procesos de centro de acopio. PROAmazonía.',
+        'PROAmazonía. (2020). <em>Manual de procesos de centro de acopio</em>. PROAmazonía.',
       link:
         'https://www.proamazonia.org/wp-content/uploads/2021/05/Manual_cacao_2021.pdf',
     },
     {
       referencia:
-        'USAID. (s.f.). Análisis de la cadena productiva del cacao en Colombia. USAID.',
+        'USAID. (s.f.). <em>Análisis de la cadena productiva del cacao en Colombia</em>. USAID.',
       link: 'https://pdf.usaid.gov/pdf_docs/PA00W6GT.pdf',
     },
   ],
@@ -295,7 +294,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

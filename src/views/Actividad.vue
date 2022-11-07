@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Compruebe sus conocimientos sobre la planificación en la recepción del cacao.
+          h2 Compruebe sus conocimientos sobre la planificación en la recepción del cacao
         p.mb-4 Identificar la apropiación de los conceptos adquiridos en el componente sobre los procesos y la planificación en la recepción del cacao. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
