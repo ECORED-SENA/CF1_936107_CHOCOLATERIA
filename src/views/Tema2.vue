@@ -20,7 +20,7 @@
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/temas/img01.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Maquinaria artesanal</span>
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Maquinaria artesanal</span>
       
       p En las actividades agrícolas en las zonas más alejadas de las grandes ciudades los agricultores y los productores artesanales se ingenian la manera de realizar las actividades más complejas con la ayuda de herramientas rudimentarias para facilitar su labor.
 
@@ -35,14 +35,20 @@
       .row.justify-content-center.mb-4
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img03.png")
+          .row.justify-content-center
+            .col-8.BGR07.p-2
+              .h4.text-white.text-center.mb-0 Tostado de cacao
         .col-lg-5.col-10(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img04.png")
+          .row.justify-content-center
+            .col-8.BGR07.p-2
+              .h4.text-white.text-center.mb-0 Molido de cacao
 
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-1.col-2.img01
         img.w-50(src="@/assets/curso/temas/img01.png")
       .col
-        .h4.ms-5.mb-0 <span style="color:#7D5F54">Maquinaria industrial</span>
+        .h3.ms-5.mb-0 <span style="color:#7D5F54">Maquinaria industrial</span>
       
     p El avance de los procesos de tecnificación en la agroindustria ha traído consigo el desarrollo de nuevos instrumentos, herramientas y maquinaria para realizar las labores de manera más eficiente y con el menor gasto energético y económico en la mayoría de los casos.
     
@@ -88,50 +94,57 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: '<span style="color:#7D5F54">Tostadora de granos</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Tostadora de granos</span>',
         texto:
           'La función principal es la eliminación de la humedad mediante la aplicación de vapor que calienta el grano y finalmente lo seca.',
         imagen: require('@/assets/curso/tema2/img06.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Molino de granos</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Molino de granos</span>',
         texto:
           'El molino es una máquina que por medio de la fricción de dos discos muele el grano de cacao limpio y deja un producto menos denso.',
         imagen: require('@/assets/curso/tema2/img07.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Descascadora de cacao</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Descascadora de cacao</span>',
         texto:
           'Su función principal es la de quitarle la cáscara al grano de cacao por medio del rompimiento, de acuerdo con el control previo realizado.',
         imagen: require('@/assets/curso/tema2/img08.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Mezcladora de cacao</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Mezcladora de cacao</span>',
         texto:
           'Es usada para homogeneizar la mezcla de varios ingredientes, entre ellos el cacao para obtener finalmente el chocolate.',
         imagen: require('@/assets/curso/tema2/img09.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Monitor de granos</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Monitor de granos</span>',
         texto:
           'Es el encargado de escoger el fruto de acuerdo con las especificaciones establecidas en la etapa preoperacional.',
         imagen: require('@/assets/curso/tema2/img10.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Refinador o conchador</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Refinador o conchador</span>',
         texto:
           'Mezcla los ingredientes que llevará su chocolate incorporando las grasas, azúcares y emulsionantes de forma homogénea, refinando las partículas de la masa de chocolate y finalmente, realiza el conchado eliminando los ácidos acéticos no deseables de la pasta refinada.',
         imagen: require('@/assets/curso/tema2/img11.png'),
       },
       {
         titulo:
-          '<span style="color:#7D5F54">Mezclador con cámara de aceite</span>',
+          '<span style="color:#7D5F54; font-size: 18px;">Mezclador con cámara de aceite</span>',
         texto:
           'Realiza la mezcla de los ingredientes del chocolate llevando a cabo un control de la temperatura.',
         imagen: require('@/assets/curso/tema2/img12.png'),
       },
       {
-        titulo: '<span style="color:#7D5F54">Prensa para cacao</span>',
+        titulo:
+          '<span style="color:#7D5F54; font-size: 18px;">Prensa para cacao</span>',
         texto:
           'Mediante el uso de esta máquina se extrae la manteca de cacao proveniente del licor del cacao.',
         imagen: require('@/assets/curso/tema2/img13.png'),

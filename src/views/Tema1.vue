@@ -32,7 +32,7 @@
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/temas/img01.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Normatividad ambiental</span>
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Normatividad ambiental</span>
       
       p En Colombia es una de las más completas del mundo, porque el país ha desarrollado mecanismos de protección de los ecosistemas propendiendo por el desarrollo industrial con la minimización de los impactos generados por las actividades antrópicas. A continuación conozca la importancia de las buenas prácticas en los procesos agrícolas.
 
@@ -63,7 +63,7 @@
             .tarjeta.color-acento-botones
               .row.justify-content-center.mx-1
                 .col-6
-                  img(src="@/assets/curso/tema1/img08.svg")
+                  img(src="@/assets/curso/tema1/img20.svg")
                 .col-12.BGR03.p-sm-4.p-3
                   .h4 <span style="color:#7D5F54">Ley 388 de 1997</span>
                   p.mb-0 Ordenamiento territorial municipal, distrital y planes de ordenamiento territorial.
@@ -91,14 +91,14 @@
             .tarjeta.color-acento-botones
               .row.justify-content-center.mx-1
                 .col-6
-                  img(src="@/assets/curso/tema1/img08.svg")
+                  img(src="@/assets/curso/tema1/img07.svg")
                 .col-12.BGR03.p-sm-4.p-3
                   .h4 <span style="color:#7D5F54">Decreto 2150 de 1995</span>
                   p.mb-0 Reglamenta la licencia ambiental y otros permisos.
             .tarjeta.color-acento-botones
               .row.justify-content-center.mx-1
                 .col-6
-                  img(src="@/assets/curso/tema1/img09.svg")
+                  img(src="@/assets/curso/tema1/img20.svg")
                 .col-12.BGR04.p-sm-4.p-3
                   .h4 <span style="color:#7D5F54">Decreto 1124 de 1999</span>
                   p.mb-0 Por el cual se reestructura el Ministerio del Medioambiente.
@@ -108,7 +108,7 @@
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/temas/img01.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Normatividad sanitaria</span>
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Normatividad sanitaria</span>
       
       p Se crea para propender por la protección de las actividades agrícolas de posibles enfermedades y la expansión de contagios que puedan afectar gravemente las actividades en el campo.
       p.mb-5 Existe un reglamento sanitario internacional RSI, que se ha convertido en una herramienta para la prevención de la propagación de enfermedades infecciosas, el cual fue aprobado en la Resolución WHA58 de 2005 durante la 58° Asamblea Mundial de la Salud. 
@@ -159,7 +159,7 @@
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/temas/img01.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Seguridad y salud en el trabajo</span>
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Seguridad y salud en el trabajo</span>
       
       p En las actividades de producción, en la mayoría de los campos se presentan situaciones que pueden afectar leve o gravemente la salud de los trabajadores, es por eso que se hace necesario la implementación de un Sistema de Gestión de la Seguridad y Salud en el Trabajo (#[b SG-SST]), con el objetivo de prevenir las posibles situaciones que se presenten durante la ejecución de las labores de producción y que sean de riesgo para los colaboradores. Conozca la importancia de la implementación del #[b SG-SST] en la industria cacaotera:
       
@@ -205,8 +205,8 @@
           table
             thead
               tr
-                th(style="background-color: #FCC02D; width: 30%;").text-center Norma
-                th(style="background-color: #FCC02D; width: 70%;").text-center Concepto
+                th(style="background-color: #FCC02D; width: 30%; font-size: 18px").text-center Norma
+                th(style="background-color: #FCC02D; width: 70%; font-size: 18px").text-center Concepto
             tbody
               tr
                 th.text-center Decreto 614 de 1984

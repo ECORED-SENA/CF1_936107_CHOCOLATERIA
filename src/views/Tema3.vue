@@ -22,19 +22,19 @@
     .BGIMG02.p-md-5.p-4   
       figure.mb-5(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/4GdXh205c3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-lg-1.col-2.img01
           img.w-50(src="@/assets/curso/temas/img01.png")
         .col
-          .h4.ms-5.mb-0 <span style="color:#7D5F54">Consideraciones generales para el procesamiento del cacao</span>
+          .h3.ms-5.mb-0 <span style="color:#7D5F54">Consideraciones generales para el procesamiento del cacao</span>
       
       p Es muy importante cumplir con las siguientes recomendaciones, desde el momento de la recepción hasta la última etapa, es decir, el empaque.
 
       .row.justify-content-center.mb-4
-        .col-lg-10(data-aos="zoom-in")
-          ImagenInfograficaB.color-acento-botones.mb-5
+        .col-lg-10.mb-4(data-aos="zoom-in")
+          ImagenInfograficaB.color-acento-botones
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema3/img02.svg')
@@ -43,29 +43,28 @@
                 img(src="@/assets/curso/tema3/img03.svg")
               .col-lg-8
                 .h4 Manual de procesos
-                p Conocer el manual de procesos del centro de acopio de cacao.
+                p.mb-0 Conocer el manual de procesos del centro de acopio de cacao.
             .row.justify-content-center.align-items-center(x="91%" y="45%" tooltip="Personas por actividad" numero="+")
               .col-lg-3.col-6.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema3/img04.svg")
               .col-lg-8
                 .h4 Personas por actividad
-                p Procurar que el número de personas que estén realizando alguna actividad o fase del procesamiento sea una cantidad considerable o la menor posible.
+                p.mb-0 Procurar que el número de personas que estén realizando alguna actividad o fase del procesamiento sea una cantidad considerable o la menor posible.
             .row.justify-content-center.align-items-center(x="9%" y="73%" tooltip="Distanciamiento físico" numero="+")
               .col-lg-3.col-6.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema3/img05.svg")
               .col-lg-8
                 .h4 Distanciamiento físico
-                p Mantener una distancia de mínimo 2 metros con otras personas.
+                p.mb-0 Mantener una distancia de mínimo 2 metros con otras personas.
             .row.justify-content-center.align-items-center(x="91%" y="73%" tooltip="Normas de higiene para la manipulación de alimentos" numero="+")
               .col-lg-3.col-6.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema3/img06.svg")
               .col-lg-8
                 .h4 Normas de higiene para la manipulación de alimentos
                 p Vestir ropa de trabajo adecuada, utilizar en todo momento, mientras que se encuentre en el sector de procesamiento, mascarilla, protector visual o facial; cubrir el cabello con cofia o pañoleta y no utilizar anillos, reloj o joyas.
-                p Lavarse las manos con agua y jabón, antes y después de realizar alguna actividad.
-
-
-    p Ha llegado al final del componente formativo, es muy importante que de manera autónoma realice la revisión de los contenidos y amplíe sus conocimientos a través del apoyo del material bibliográfico y complementario.
+                p.mb-0 Lavarse las manos con agua y jabón, antes y después de realizar alguna actividad.
+        .col-lg-10
+          p Ha llegado al final del componente formativo, es muy importante que de manera autónoma realice la revisión de los contenidos y amplíe sus conocimientos a través del apoyo del material bibliográfico y complementario.
 
 </template>
 
