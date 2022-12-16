@@ -39,6 +39,12 @@
       .row.justify-content-center
         .col-lg-10(data-aos="zoom-in")
           .BG01.p-4
+            .row.align-items-center.mb-4(data-aos="fade-right")
+              .col-lg-1.col-2.img01
+                img.w-50(src="@/assets/curso/temas/img01.png")
+              .col
+                .h3.ms-5.mb-0 <span style="color:#7D5F54">Buenas prácticas</span>
+            p A continuación podrá conocer la importancia de las buenas prácticas en los procesos agricultores.
             SlyderB(:datos="datosSlyder")
   
     .row.justify-content-center.mb-4
